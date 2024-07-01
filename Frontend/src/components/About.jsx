@@ -49,7 +49,7 @@ function About() {
   return (
     
     <>
-    <div className='mt-10 '>
+    <div className='mt-10  '>
         <h3 className='text-center mt-10'>The best thing to hold onto in life is each other</h3>
         <h1  className='text-center text-bold-700 text-orange-500 text-2xl'>WELCOME TO WEDDING PLANNING SERVICE</h1>
         <div>
