@@ -5,15 +5,15 @@ import banner2 from '../../src/assets/banner2.jpg'
 function Banner() {
   return (
     <>
-    <div>
+   
     <div className='md:max-w-screen-2xl container mt-10 mx-auto md:px:20 px-2 flex flex-col md:flex-row '>
 
-    <div className="hero  min-h-screen">
+    <div className="hero  min-h-screen mt-5">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="hero-content flex-col gap-0">
         <img
           src={banner1}
-          className="max-w-sm rounded-lg shadow-2xl ml-1 md:ml-8 rounded-t-full" />
+          className="max-w-sm rounded-lg shadow-2xl  md:ml-8 rounded-t-full" />
           
       </div>
     <div>
@@ -37,7 +37,7 @@ function Banner() {
 </div>
 
 
-</div>
+
 
 
 
