@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import About from './components/About'
 import Hero from './components/Hero'
 import Price from './components/Price'
+import Portfolio from './components/Portfolio'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Banner/>
     <About/>
     <Price/>
+    <Portfolio/>
     <Footer/>
     </>
   )
