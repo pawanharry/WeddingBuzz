@@ -7,6 +7,8 @@ import Hero from './components/Hero'
 import Price from './components/Price'
 import Portfolio from './components/Portfolio'
 import Reviews from './components/Reviews'
+import Contact from './components/Contact'
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
     <Price/>
     <Portfolio/>
     <Reviews/>
+    <Contact/>
     <Footer/>
     </>
   )
