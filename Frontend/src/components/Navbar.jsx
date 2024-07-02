@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <>
     <div className={` max-w-screen-2xl container  mx-auto md:px:20 px-4 fixed top-0 left-0 right-0 z-50 ${ 
-      sticky?"sticky-navbar shadow-md bg-gradient-to-br from-pink-200 to-orange-100 duration-300 transition-all ease-in-out":""}`}>
+      sticky?"sticky-navbar shadow-md bg-red-50 duration-300 transition-all ease-in-out":""}`}>
 
     <div className="navbar ">
   <div className="navbar-start">
