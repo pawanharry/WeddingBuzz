@@ -6,7 +6,7 @@ function Banner() {
   return (
     <>
    
-    <div className='md:max-w-screen-2xl container mt-10 mx-auto md:px:20 px-2 flex flex-col md:flex-row '>
+    <div id="section1" className='md:max-w-screen-2xl container mt-10 mx-auto md:px:20 px-2 flex flex-col md:flex-row '>
 
     <div className="hero  min-h-screen mt-5">
   <div className="hero-content flex-col lg:flex-row-reverse">
