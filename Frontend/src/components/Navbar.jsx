@@ -42,7 +42,7 @@ function Navbar() {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-bold-700">
          
       <li className='text-xl font-bold'><a>About Us</a></li>
-      <li className='text-xl font-bold'><a>Team</a></li>
+      <li className='text-xl font-bold'><a>Services</a></li>
       <li className='text-xl font-bold'><a>Price</a></li>
       <li className='text-xl font-bold'><a>Portfolio</a></li>
       <li className='text-xl font-bold'><a>Reviews</a></li>
@@ -54,7 +54,7 @@ function Navbar() {
     <ul className="menu menu-horizontal px-1">
       
       <li className='text-xl font-bold'><a>About Us</a></li>
-      <li className='text-xl font-bold'><a>Team</a></li>
+      <li className='text-xl font-bold'><a>Services</a></li>
       <li className='text-xl font-bold'><a>Price</a></li>
       <li className='text-xl font-bold'><a>Portfolio</a></li>
       <li className='text-xl font-bold'><a>Reviews</a></li>
