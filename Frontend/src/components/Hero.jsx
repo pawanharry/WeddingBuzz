@@ -16,7 +16,7 @@ function Hero() {
       <p className="mb-5">
         MAKE TOUR DREAM WEDDING PERFECT AND HASSELFREE
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg  text-sm md:text-sm md:px-5 px-3 md:py-2.5 py-1.5 text-center me-1 md:me-2 md:mb-2 mb-2">Contact Us</button>
     </div>
   </div>
 </div>
