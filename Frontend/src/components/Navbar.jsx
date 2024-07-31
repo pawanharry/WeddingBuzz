@@ -1,6 +1,19 @@
 import React, { useEffect, useState } from 'react'
 
+
+
 function Navbar() {
+  const navItems=(
+    <>
+     <li className='text-xl font-bold'><a>About Us</a></li>
+      <li className='text-xl font-bold'><a>Services</a></li>
+      <li className='text-xl font-bold'><a>Price</a></li>
+      <li className='text-xl font-bold'><a>Portfolio</a></li>
+      <li className='text-xl font-bold'><a>Reviews</a></li>
+    </>
+  )
+
+
   const [sticky,setSticky]=useState(false)
   useEffect(()=>{
     const handleScroll=()=>{
@@ -40,24 +53,16 @@ function Navbar() {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-bold-700">
-         
-      <li className='text-xl font-bold'><a>About Us</a></li>
-      <li className='text-xl font-bold'><a>Services</a></li>
-      <li className='text-xl font-bold'><a>Price</a></li>
-      <li className='text-xl font-bold'><a>Portfolio</a></li>
-      <li className='text-xl font-bold'><a>Reviews</a></li>
+         {navItems}
+     
       </ul>
     </div>
-    <a className="text-xl font-bold md:text-4xl md:font-extrabold block w-full text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400 lg:inline">Wedding&Buzz</a>
+    <a className="text-xl font-bold md:text-4xl md:font-extrabold cursor-pointer block w-full text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400 lg:inline">Wedding&Buzz</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       
-      <li className='text-xl font-bold'><a>About Us</a></li>
-      <li className='text-xl font-bold'><a>Services</a></li>
-      <li className='text-xl font-bold'><a>Price</a></li>
-      <li className='text-xl font-bold'><a>Portfolio</a></li>
-      <li className='text-xl font-bold'><a>Reviews</a></li>
+   {navItems}
      
       
     </ul>
