@@ -7,10 +7,11 @@ function Footer() {
         <hr/>
     <footer className="footer footer-center  text-base-content rounded p-10">
   <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Team</a>
-    <a className="link link-hover">Portfolio</a>
+    <a href="#section1" className="link link-hover">About us</a>
+    <a href="#section2" className="link link-hover">Services</a>
+    <a href="#section3" className="link link-hover">Price</a>
+    <a href="#section4" className="link link-hover">Portfolio</a>
+    <a href="#section6" className="link link-hover">Contact Us</a>
   </nav>
   <nav>
     <div className="grid grid-flow-col gap-4">

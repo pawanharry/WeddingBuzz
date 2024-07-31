@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
-
-
 function Navbar() {
   const navItems=(
     <>
-     <li className='text-xl font-bold'><a>About Us</a></li>
-      <li className='text-xl font-bold'><a>Services</a></li>
-      <li className='text-xl font-bold'><a>Price</a></li>
-      <li className='text-xl font-bold'><a>Portfolio</a></li>
-      <li className='text-xl font-bold'><a>Reviews</a></li>
+     <li className='text-xl font-bold hover:underline decoration-orange-500  underline-offset-4'><a href="#section1" >About Us</a></li>
+      <li className='text-xl font-bold hover:underline decoration-orange-500  underline-offset-4'><a href="#section2">Services</a></li>
+      <li className='text-xl font-bold hover:underline decoration-orange-500  underline-offset-4'><a  href="#section3">Price</a></li>
+      <li className='text-xl font-bold hover:underline decoration-orange-500  underline-offset-4'><a href="#section4">Portfolio</a></li>
+      <li className='text-xl font-bold hover:underline decoration-orange-500  underline-offset-4'><a  href="#section5">Reviews</a></li>
     </>
   )
 
@@ -57,7 +55,7 @@ function Navbar() {
      
       </ul>
     </div>
-    <a className="text-xl font-bold md:text-4xl md:font-extrabold cursor-pointer block w-full text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400 lg:inline">Wedding&Buzz</a>
+    <a href="#section7" className="text-xl font-bold md:text-4xl md:font-extrabold cursor-pointer block w-full text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400 lg:inline">Wedding&Buzz</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -68,7 +66,8 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-  <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg  text-sm md:text-sm md:px-5 px-3 md:py-2.5 py-1.5 text-center me-1 md:me-2 md:mb-2 mb-2">Contact Us</button>
+  <a href="#section6"  class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg  text-sm md:text-sm md:px-5 px-3 md:py-2.5 py-1.5 text-center me-1 md:me-2 md:mb-2 mb-2">Contact Us
+  </a>
   </div>
 </div>
     

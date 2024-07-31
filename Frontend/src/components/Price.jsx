@@ -3,7 +3,7 @@ import React from 'react'
 function Price() {
   return (
     <>
-    <div className='md:max-w-screen-2xl container mt-180 mx-auto md:px:20 px-5 bg-base-100'>
+    <div id="section3"className='md:max-w-screen-2xl container mt-180 mx-auto md:px:20 px-5 bg-base-100'>
 
     <div class="flex flex-col text-center w-full mt-50 pt-20 my-8 ">
    
@@ -24,7 +24,7 @@ function Price() {
 
   
    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-       <div class="h-full p-6 rounded-lg border-2 border-gray-300 hover:bg-gradient-to-br from-pink-200 to-orange-100 flex flex-col relative overflow-hidden">
+       <div class="h-full p-6 rounded-lg border-2 border-gray-300 border-4 border-orange-200 border-t-orange-500 hover:bg-gradient-to-br from-pink-200 to-orange-100 flex flex-col relative overflow-hidden">
            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
            <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
            <p class="flex items-center text-gray-600 mb-2">
@@ -42,7 +42,7 @@ function Price() {
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" 
                 class="w-3 h-3" viewBox="0 0 24 24"> <path d="M20 6L9 17l-5-5"></path> </svg> </span>Overviewing entire process
            </p>
-           <button class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none  rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </button>
+           <a href="#section6" class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none  rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </a>
            <p class="text-xs text-gray-500 mt-3">Your wedding, your way. Affordable luxury awaits with our tailored pricing.</p>
        </div>
    </div>
@@ -50,7 +50,7 @@ function Price() {
 
    
    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-       <div class="h-full p-6 rounded-lg border-2 hover:bg-gradient-to-br from-pink-200 to-orange-100 flex flex-col relative overflow-hidden">
+       <div class="h-full p-6 rounded-lg border-2 border-4 border-orange-200 border-t-orange-500 hover:bg-gradient-to-br from-pink-200 to-orange-100 flex flex-col relative overflow-hidden">
            <span class="bg-gradient-to-br from-pink-500 to-orange-400 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Essential Elegance</h2>
            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -91,7 +91,7 @@ function Price() {
                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" 
                  class="w-3 h-3" viewBox="0 0 24 24"> <path d="M20 6L9 17l-5-5"></path> </svg> </span>Limited Hours of Consultation
            </p>
-           <button class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none  rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </button>
+           <a href="#section6" class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none  rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </a>
            <p class="text-xs text-gray-500 mt-3">Celebrate love without financial stress. Discover straightforward pricing for your dream wedding.</p>
        </div>
    </div>
@@ -99,7 +99,7 @@ function Price() {
 
    
    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-       <div class="h-full p-6 rounded-lg border-2  hover:bg-gradient-to-br from-pink-200 to-orange-100 border-gray-300 flex flex-col relative overflow-hidden">
+       <div class="h-full p-6 rounded-lg border-2 border-4 border-orange-200 border-t-orange-500 hover:bg-gradient-to-br from-pink-200 to-orange-100 border-gray-300 flex flex-col relative overflow-hidden">
            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Classic Bliss</h2>
            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                <span>$7000</span> <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
@@ -149,7 +149,7 @@ function Price() {
                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" 
                  class="w-3 h-3" viewBox="0 0 24 24"> <path d="M20 6L9 17l-5-5"></path> </svg> </span>Unlimited Hours of Consultation
            </p>
-           <button class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </button>
+           <a href="#section6" class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </a>
            <p class="text-xs text-gray-500 mt-3">Crafting unforgettable moments, priced for your happiness and peace of mind.</p>
        </div>
    </div>
@@ -157,7 +157,7 @@ function Price() {
 
    
    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-       <div class="h-full p-6 rounded-lg border-2 hover:bg-gradient-to-br from-pink-200 to-orange-100 border-gray-300 flex flex-col relative overflow-hidden">
+       <div class="h-full p-6 rounded-lg border-2 border-4 border-orange-200 border-t-orange-500 hover:bg-gradient-to-br from-pink-200 to-orange-100 border-gray-300 flex flex-col relative overflow-hidden">
            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Luxury Enchantment</h2>
            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                <span>$10000</span> <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
@@ -222,7 +222,7 @@ function Price() {
                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" 
                  class="w-3 h-3" viewBox="0 0 24 24"> <path d="M20 6L9 17l-5-5"></path> </svg> </span>Exclusive Add-Ons and Customizations
            </p>
-           <button class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none  rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </button>
+           <a href="#section6" class="flex items-center mt-auto text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl border-0 py-2 px-4 w-full focus:outline-none  rounded">Buy now <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24"> <path d="M5 12h14M12 5l7 7-7 7"></path> </svg> </a>
            <p class="text-xs text-gray-500 mt-3">From planning to perfection, our pricing makes your dream wedding a reality.</p>
        </div>
    </div>
