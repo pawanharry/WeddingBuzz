@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <>
-    <div className='max-w-screen-2xl container  mx-auto md:px:20 px-4 fixed top-0 left-0 right-0'>
+    <div className='max-w-screen-2xl container  mx-auto md:px:20 px-4 fixed top-0 left-0 right-0 z-4'>
     <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -24,7 +24,7 @@ function Navbar() {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-bold-700">
-         <li className='text-xl font-bold'><a>Home</a></li>
+         
       <li className='text-xl font-bold'><a>About Us</a></li>
       <li className='text-xl font-bold'><a>Team</a></li>
       <li className='text-xl font-bold'><a>Price</a></li>
@@ -32,11 +32,11 @@ function Navbar() {
       <li className='text-xl font-bold'><a>Reviews</a></li>
       </ul>
     </div>
-    <a className=" text:l md:text-3xl font-bold cursor-pointer text-orange-500">Wedding&Buzz</a>
+    <a className=" text:l md:text-xl font-bold cursor-pointer text-orange-500">Wedding&Buzz</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li className='text-xl font-bold'><a>Home</a></li>
+      
       <li className='text-xl font-bold'><a>About Us</a></li>
       <li className='text-xl font-bold'><a>Team</a></li>
       <li className='text-xl font-bold'><a>Price</a></li>
