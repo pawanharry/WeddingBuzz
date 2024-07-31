@@ -48,7 +48,7 @@ function Navbar() {
       <li className='text-xl font-bold'><a>Reviews</a></li>
       </ul>
     </div>
-    <a className=" text:l md:text-xl font-bold cursor-pointer text-orange-500">Wedding&Buzz</a>
+    <a className="text-xl font-bold md:text-4xl md:font-extrabold block w-full text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400 lg:inline">Wedding&Buzz</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
